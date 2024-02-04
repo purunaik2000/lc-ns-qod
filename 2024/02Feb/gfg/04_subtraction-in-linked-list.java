@@ -1,3 +1,14 @@
+class Node
+{
+    int data;
+    Node next;
+
+    Node(int x){
+        data = x;
+        next = null;
+    }
+}
+
 class Solution {
     public Node subLinkedList(Node head1, Node head2) {
         // code here
