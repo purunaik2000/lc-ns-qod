@@ -13,6 +13,8 @@ class Solution
         for(int e : arr2) set.add(e);
         
         for(int e : set) list.add(e);
+
+        Collections.sort(list);
         
         return list;
     }
