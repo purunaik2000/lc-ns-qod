@@ -17,7 +17,10 @@ function readLine() {
 
 function solution(n) {
     if(n < 3) return n;
-    return n*(n-1)*(n&1 ? n-2 : n-3);
+    n = BigInt(n);
+    if(n%2n == 1n) return (n*(n-1n)*(n-2n)).toString().substring(-1);
+    else if(n%3n == 0n) return ((n-1n)*(n-2n)*(n-3n)).toString().substring(-1);
+    else return (n*(n-1n)*(n-3n)).toString().substring(-1);
 }
     
 function main() {
