@@ -1,5 +1,6 @@
 package lc
 import "sort"
+import "math"
 
 func minDifference(nums []int) int {
     n := len(nums)
